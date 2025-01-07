@@ -1,42 +1,56 @@
 # Sentiment Analysis on Images
 
-This project performs sentiment analysis on a sequence of images using computer vision techniques. Each image is assigned a sentiment score ranging from 1 to 5, and the results are saved in an Excel file.
+This project performs sentiment analysis on a sequence of images using computer vision techniques. Each image is assigned a sentiment score in the form of a percentage across categories of Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral using the fer library from Justin Shenk https://github.com/JustinShenk/fer
+The code generates an Excel file with the image name, the percentages for each emotion, and the dominant emotion.
 
 ## Project Structure
 
 ```
 sentiment-analysis-project
-├── src
-│   ├── main.py                # Entry point of the application
-│   ├── sentiment_analysis.py   # Contains the SentimentAnalyzer class
-│   ├── image_processing.py     # Functions for loading and preprocessing images
-│   └── utils
-│       └── __init__.py        # Utility functions for the project
-├── requirements.txt            # Project dependencies
-├── .gitignore                  # Files and directories to ignore in Git
-└── README.md                   # Project documentation
+├── main.py                # Entry point of the application
+├── requirements.txt       # Project dependencies
+├── .gitignore             # Files and directories to ignore in Git
+└── README.md              # Project documentation
 ```
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/hleve/Visual_Analysis_Tool
    cd sentiment-analysis-project
    ```
 
-2. Install the required dependencies:
+2. Create a virtual environment:
+   ```
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment:
+
+   On Windows:
+   ```
+   venv\Scripts\activate
+   ```
+
+   On macOS and Linux:
+   ```
+   source venv/bin/activate
+   ```
+
+4. Install the required dependencies:
    ```
    pip install -r requirements.txt
    ```
 
+
 ## Usage
 
 1. Place your images in a designated directory.
-2. Update the image directory path in `src/main.py`.
+2. Update the image directory path in `main.py`.
 3. Run the application:
    ```
-   python src/main.py
+   python main.py
    ```
 
 ## Output
