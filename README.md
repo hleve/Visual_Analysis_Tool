@@ -52,6 +52,7 @@ sentiment-analysis-project
 2. Update the image directory path in `main.py`.
 3. Update the output directory path in `main.py`.
 4. Run the application:
+
    ```
    python main.py
    ```
