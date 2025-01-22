@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 # Folder containing the images - Update this to the folder containing your images
-image_folder = "C:/Users/..."
+image_folder = './example_images'
 
 # Initialize the emotion detector with MTCNN
 emotion_detector = FER(mtcnn=True)
@@ -40,7 +40,7 @@ for filename in os.listdir(image_folder):
 df = pd.DataFrame(results)
 
 # Save the DataFrame to an Excel file - Update this line with where your file will be output.
-output_file = "C:/Users/emotion_analysis_results.xlsx"
+output_file = "./example_results.xlsx"
 df.to_excel(output_file, index=False)
 
 print(f"Results saved to {output_file}")
