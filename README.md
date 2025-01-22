@@ -10,6 +10,8 @@ sentiment-analysis-project
 ├── main.py                # Entry point of the application
 ├── requirements.txt       # Project dependencies
 ├── .gitignore             # Files and directories to ignore in Git
+├── example_images         # folder with example images
+├── example_results.xlsx   # example results from running the example images
 └── README.md              # Project documentation
 ```
 
@@ -50,6 +52,7 @@ sentiment-analysis-project
 2. Update the image directory path in `main.py`.
 3. Update the output directory path in `main.py`.
 4. Run the application:
+
    ```
    python main.py
    ```
