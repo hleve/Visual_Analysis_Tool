@@ -7,6 +7,5 @@ ENV/
 .env
 .venv
 .venv/
-env/
 env.bak/
 venv.bak/
