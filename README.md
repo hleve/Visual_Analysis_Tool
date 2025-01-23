@@ -1,6 +1,6 @@
 # Sentiment Analysis for Images
 
-This project performs sentiment analysis on a sequence of images using computer vision techniques. Each image is assigned a sentiment score in the form of a percentage across categories of Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral using the fer library from Justin Shenk https://github.com/JustinShenk/fer
+This project performs sentiment analysis on a sequence of images using computer vision techniques. Each image is assigned a sentiment score in the form of a percentage across categories of Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral, the universal basic emotions defined by Psychologist Paul Ekman, using the fer library from Justin Shenk https://github.com/JustinShenk/fer
 The code generates an Excel file with the image name, the percentages for each emotion, and the dominant emotion.
 
 ## Project Structure
