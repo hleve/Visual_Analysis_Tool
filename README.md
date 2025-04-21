@@ -6,7 +6,7 @@ The code generates an Excel file with the image name, the percentages for each e
 ## Project Structure
 
 ```
-sentiment-analysis-project
+sentiment-analysis
 ├── main.py                # Entry point of the application
 ├── requirements.txt       # Project dependencies
 ├── .gitignore             # Files and directories to ignore in Git
@@ -24,7 +24,7 @@ sentiment-analysis-project
 
 2. Navigate to the cloned directory:
    ```
-   cd sentiment-analysis-project
+   cd sentiment-analysis
    ```
 
 3. Create a virtual environment:
