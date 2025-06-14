@@ -1,6 +1,6 @@
 # Sentiment Analysis for Images
 
-This project performs sentiment analysis on a sequence of images using computer vision techniques. Each image is assigned a sentiment score in the form of a percentage across categories of Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral, the universal basic emotions defined by Psychologist Paul Ekman, using the fer library from Justin Shenk https://github.com/JustinShenk/fer
+This project performs sentiment analysis on a sequence of images using computer vision techniques. Each image is assigned a sentiment score in the form of a percentage across categories of Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral, the universal basic emotions defined by Psychologist Paul Ekman, using the fer library from Justin Shenk ([GitHub repo](https://github.com/JustinShenk/fer)).  
 The code generates an Excel file with the image name, the percentages for each emotion, and the dominant emotion.
 
 ## Project Structure
@@ -20,7 +20,7 @@ sentiment-analysis
 1. Clone the repository:
    ```
    git clone https://github.com/hleve/Visual_Analysis_Tool
-    ```
+   ```
 
 2. Navigate to the cloned directory:
    ```
@@ -53,7 +53,6 @@ sentiment-analysis
    python3 main.py
    ```
 
-
 ## Usage
 
 1. Place your images in a designated directory.
@@ -73,3 +72,7 @@ The application will generate an Excel file containing the image names and their
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT Liscence, details can be found in the [LICENSE](./LICENSE) file.
